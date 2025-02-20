@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mujtaab Ahmad</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="logo">
+        <p>M</p>
+        UJTABA
+        <p>A</p>
+        HMAD
+      </span>
+
+      <ul class="nav-links">
+        <li id="hideOnMobile"><a href="#home">home</a></li>
+        <li id="hideOnMobile"><a href="#service">services</a></li>
+        <li id="hideOnMobile"><a href="#sec-projects">projects</a></li>
+        <li id="hideOnMobile"><a href="#about">about</a></li>
+        <li id="hideOnMobile"><a href="#contact">contact</a></li>
+        <li onclick="showSideBar()" class="menubtn">
+          <a href="#"
+            ><img
+              src="./images/menu_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              width="30px"
+              alt=""
+          /></a>
+        </li>
+      </ul>
+      <ul class="sidebar">
+        <li onclick="closeSidebar()">
+          <a href="#"
+            ><img
+              src="./images/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+              alt=""
+          /></a>
+        </li>
+        <li><a href="#home">home</a></li>
+        <li><a href="#service">services</a></li>
+        <li><a href="#sec-projects">projects</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+
+    <div
+      id="home"
+      class="main-container"
+      data-aos="slide-down"
+      data-aos-duration="1800"
+    >
+      <div class="main-text-container">
+        <h1 class="main-text" data-aos="fade-up-right" data-aos-duration="1800">
+          hey there, i am
+          <p class="name" data-aos="fade-up-right" data-aos-duration="2000">
+            mujtaba ahmad <br />
+            <span class="frontend"
+              >Front End
+              <span class="webdev"> Web development</span>
+
+             
+          </p>
+        </h1>
+        <!-- <button data-aos="fade-up-right" data-aos-duration="1800" >
+          Portfolio
+        </button> -->
+      </div>
+      <div class="main-img-container">
+        <img
+          src="./images/mepng.png "
+          class="main-img"
+          data-aos="fade-up-left"
+          data-aos-duration="1800"
+        />
+      </div>
+    </div>
+
+    <!-- scroll bar -->
+
+    <div class="scroll-prograss"></div>
+
+    <!-- service section  -->
+
+    <div id="service" class="sec-service">
+      <div class="service-div">
+        <div class="service-text">
+          <h1>service</h1>
+          <p>
+            I specialize in creating stunning, fully responsive, and
+            high-performance websites that enhance user experience and
+            engagement. With expertise in HTML, CSS, JavaScript, React, and GSAP
+            animations, I build interactive and visually appealing web solutions
+            tailored to your needs.
+          </p>
+        </div>
+        <!-- cards -->
+
+        <div class="service-cards">
+          <div class="card" data-aos="fade-down" data-aos-duration="1100">
+            <img src="../bowling-ball.svg" alt="" />
+            <h1>Custom Website Design</h1>
+            <p>
+              Modern and responsive designs that align with your brand identity.
+            </p>
+          </div>
+          <div class="card" data-aos="fade-down" data-aos-duration="1100">
+            <img src="../bowling-ball.svg" alt="" />
+            <h1>React Development</h1>
+            <p>
+              Scalable and dynamic front-end applications with optimized
+              performance.
+            </p>
+          </div>
+          <div class="card" data-aos="fade-down" data-aos-duration="1100">
+            <img src="../bowling-ball.svg" alt="" />
+            <h1>GSAP Animations</h1>
+            <p>Smooth and engaging animations for a unique user experience.</p>
+          </div>
+          <div class="card" data-aos="fade-down" data-aos-duration="1100">
+            <img src="../bowling-ball.svg" alt="" />
+            <h1>Landing Pages & UI Components</h1>
+            <p>High-converting pages with pixel-perfect UI.</p>
+          </div>
+          <!-- <div class="card">
+            <img src="../bowling-ball.svg" alt="" />
+            <h1>Website Optimization</h1>
+            <p>Faster load times and improved SEO for better performance.</p>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <section class="projects" id="projects">
+      <div class="project-div">
+        <h1>MY Projects</h1>
+        <div class="project" data-aos="fade-in" data-aos-duration="1100" >
+          <img
+            src="./images/icons8-star-50.png"
+            class="star"
+            style="width: 30px; height: 30px"
+            alt="star"
+          />
+          <a
+            href="https://mujtabaahmad212.github.io/responsive--COFFEE-SHOP-website/"
+            class="imglink"
+            target="_blank"
+          >
+            <img
+              src="./images/Screenshot 2025-02-19 021653.png"
+              alt="Project Image"
+          /></a>
+
+          <div class="project-info">
+            <h2>Coffee Shop Website</h2>
+            <p>
+              A sleek and fully responsive website with smooth animations using
+              HTML, CSS, and JavaScript.
+            </p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/responsive--COFFEE-SHOP-website?authuser=1"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-blue" data-aos="fade-in" data-aos-duration="1100">
+          <a
+            href="https://mujtabaahmad212.github.io/responsive-book-store-website/?authuser=1"
+            class="imglink"
+            target="_blank"
+            ><img
+              src="./images/Screenshot 2025-02-19 021742.png"
+              alt="Project Image"
+          /></a>
+
+          <div class="project-info blue-bg">
+            <h2>Book Shop Website</h2>
+            <p>
+              <!-- A visually appealing landing page with engaging animations and modern UI design. -->
+              A fully responsive Book Shop Website designed using Html and css
+            </p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/responsive-book-store-website?authuser=1"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project"data-aos="fade-in" data-aos-duration="1100">
+          <a
+            href="https://mujtabaahmad212.github.io/home-task-3-login--page/"
+            class="imglink"
+            target="_blank"
+          >
+            <img
+              src="./images/Screenshot 2025-02-19 021831.png"
+              alt="Project Image"
+          /></a>
+          <div class="project-info">
+            <h2>Responsive Login Page</h2>
+            <p>
+              Fully responsive and ainmated Login landing page using html and
+              css
+            </p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/home-task-3-login--page?authuser=1"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-blue" data-aos="fade-in" data-aos-duration="1100">
+          <a
+            href="https://mujtabaahmad212.github.io/full-responsive-mobile-shop-web/"
+            class="imglink"
+            target="_blank"
+            ><img
+              src="./images/Screenshot 2025-02-19 022119.png"
+              alt="Project Image"
+          /></a>
+
+          <div class="project-info blue-bg">
+            <h2>Product Shop Website</h2>
+            <p>Responsive Tech Shop Website design using Html and css</p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/full-responsive-mobile-shop-web?authuser=1"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project"data-aos="fade-in" data-aos-duration="1100">
+          <a
+            href="https://mujtabaahmad212.github.io/classTask-06/?authuser=1"
+            class="imglink"
+            target="_blank"
+          >
+            <img
+              src="./images/Screenshot 2025-02-19 021532.png"
+              alt="Project Image"
+          /></a>
+          <div class="project-info">
+            <h2>Virtual Pet!</h2>
+            <p>
+              Developed a simple virtual pet application featuring basic
+              caretaking mechanics (feeding, playing) and status tracking
+              (happiness, hunger, age). Built using [mention technologies used,
+              e.g., HTML, CSS, JavaScript]..
+            </p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/classTask-06?authuser=1"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-blue" data-aos="fade-in" data-aos-duration="1100">
+          <a
+            href="https://mujtabaahmad212.github.io/Interactive-Quiz-Game/?authuser=1"
+            class="imglink"
+            target="_blank"
+            ><img
+              src="./images/Screenshot 2025-02-19 021434.png"
+              alt="Project Image"
+          /></a>
+
+          <div class="project-info blue-bg">
+            <h2>Interactive Quiz Game</h2>
+            <p>
+              Fully Interactive quiz app where user can solve the quistions and
+              to repeat to try again when fails
+            </p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/Interactive-Quiz-Game?authuser=1"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project"data-aos="fade-in" data-aos-duration="1100">
+          <a
+            href="https://mujtabaahmad212.github.io/Netflix-Clone-Website/"
+            class="imglink"
+            target="_blank"
+          >
+            <img src="./images/netflix.png" alt="Project Image"
+          /></a>
+          <div class="project-info">
+            <h2>Netflix Clone</h2>
+            <p>
+              Netflix's Website fully designed via Html and css "Login to main
+              Home page"
+            </p>
+            <div class="repodiv">
+              <a
+                href="https://github.com/mujtabaahmad212/Netflix-Clone-Website.git"
+                class="repo"
+                target="_blank"
+                >Repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section  -->
+    <div id="about" class="sec-about">
+      <div class="about-container">
+        <div class="about-img-div">
+          <div class="stroke-div">
+            <div class="img-div-about"></div>
+          </div>
+        </div>
+        <div class="about-text">
+          <h1>
+            about
+            <p>me</p>
+          </h1>
+          <h2>Front end develpor</h2>
+          <p>
+            I am a skilled Front-End Developer with expertise in creating
+            responsive, user-friendly web interfaces using HTML, CSS, and
+            JavaScript. Proficient in modern tools like React.js, Tailwind CSS,
+            and GSAP, I focus on building visually appealing and accessible
+            applications.
+          </p>
+          <a href="../Coffee Cup Splash.jpeg" download="">downlaod cv</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- section contact -->
+    <div id="contact" class="sec-contact">
+      <div class="cantact-container">
+        <div class="contact-header">
+          <h1>
+            contact
+            <p>info</p>
+          </h1>
+          <p>let's connect</p>
+        </div>
+        <div class="conract-content">
+          <a href="https://wa.me/+923161900577" target="_blank" class="phone">
+            <div class="phone-icon">
+              <img
+                src="./images/call_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="phone-text">
+              <h1>phone</h1>
+              <p>+923161900577</p>
+            </div>
+          </a>
+
+          <a href="mailto:mujtaba212creater@gmail.com" target="_blank" class="email">
+            <div class="email-icon">
+              <img
+                src="./images/mail_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="email-text">
+              <h1>email</h1>
+              <p>mujtaba212creater@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://maps.app.goo.gl/1swFhqHeuz8QafvDA" target="_blank" class="address">
+            <div class="address-icon">
+              <img
+                src="./images/home_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="address-text">
+              <h1>adsress</h1>
+              <p>123 Street, City, Country</p>
+            </div>
+          </a>
+          <div class="social">
+            <a href="">
+              <img src="" alt="" />
+            </a>
+            <a href="">
+              <img src="" alt="" />
+            </a>
+            <a href="">
+              <img src="" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <h1>Mujtaba ahmad</h1>
+      <p>make your website smoother</p>
+      <img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img
+        src=""
+        alt=""
+      />
+      <p>copyright &copy; 2021 Mujtaba All rights reserved</p>
+    </div>
+
+    <script src="js.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
