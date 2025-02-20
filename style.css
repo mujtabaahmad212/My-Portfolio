@@ -781,6 +781,7 @@ p {
   width: 100%;
   height: 100%;
   background-color: #001788;
+  
 }
 .phone h1 {
   &&::first-letter {
@@ -910,7 +911,7 @@ p {
 
 /* media query */
 
-@media (max-width: 740px) {
+@media (max-width: 768px) {
   #hideOnMobile {
     display: none;
   }
@@ -1101,4 +1102,84 @@ p {
   .address-icon {
     width: 0;
   }
+}
+
+
+
+
+/* Responsive Styles */
+
+
+
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+  .repo{
+     width: 100%;
+     margin: 0;
+  }
+  
+  .sec-service{
+    width: 100%;
+    height: auto;
+  }
+  .service-div{
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .project-div{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about-container{
+    width: 100%;
+    border-radius: 2.5rem;
+    height: auto;
+  }
+
+  .about-text a{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .sec-contact{
+    height: auto;
+   
+  }
+  .cantact-container{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3rem;
+    
+  }
+  .phone{
+   width: 80%;
+    
+
+  }
+  .email{
+    width: 80%;
+  }
+  .address{
+    width: 80%;
+   
+  }
+  .phone-text{
+   
+    padding-top: 10px;
+  }
+  .email-text{
+    padding-top: 10px;
+  }
+  .address-text{
+    padding-top: 10px;
+  }
+
+
 }
