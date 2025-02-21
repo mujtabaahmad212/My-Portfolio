@@ -131,13 +131,12 @@ body {
   display: flex;
   align-items: center;
   /* background-color: #001788; */
-
 }
 
 .logo p {
   /* background-color: white; */
   color: #ff0000;
- 
+
   border-radius: 5px;
   font-weight: bold;
 }
@@ -219,10 +218,7 @@ body {
   color: #fa0b0b;
   margin-left: 8px;
 }
-/* From Uiverse.io by kennyotsu */ 
-
-
-
+/* From Uiverse.io by kennyotsu */
 
 /* @keyframes triangle-rotates {
   0% {
@@ -378,6 +374,7 @@ body {
   color: rgb(240, 240, 240);
   box-shadow: rgb(0, 0, 0) 5px 5px 20px 1px;
 }
+
 .card img {
   width: 40px;
   border-radius: 20px;
@@ -748,7 +745,7 @@ p {
   background-color: #4158d0;
   position: relative;
   height: 100px;
-  
+
   text-align: center;
 
   text-decoration: none;
@@ -758,7 +755,7 @@ p {
   transition: 0.5s ease-in-out;
   width: 60%;
 }
-.phone:hover{
+.phone:hover {
   background-color: #738bff;
   width: 90%;
   transition: 0.2s ease-in-out;
@@ -781,7 +778,6 @@ p {
   width: 100%;
   height: 100%;
   background-color: #001788;
-  
 }
 .phone h1 {
   &&::first-letter {
@@ -795,7 +791,7 @@ p {
   align-items: center;
   background-color: #4158d0;
   position: relative;
- 
+
   height: 100px;
   text-decoration: none;
   color: white;
@@ -803,12 +799,11 @@ p {
   width: 60%;
   border-radius: 1rem;
 }
-.email:hover{
+.email:hover {
   background-color: #738bff;
   width: 90%;
   transition: 0.2s ease-in-out;
   border-radius: 3rem;
-  
 }
 .email-text {
   width: 100%;
@@ -853,12 +848,11 @@ p {
   border-radius: 1rem;
   transition: 0.5s ease-in-out;
 }
-.address:hover{
+.address:hover {
   background-color: #738bff;
   width: 90%;
   transition: 0.2s ease-in-out;
   border-radius: 3rem;
-  
 }
 .address h1 {
   &&::first-letter {
@@ -883,7 +877,14 @@ p {
   background-color: #001788;
   text-align: center;
 }
-
+.social img {
+  transition: 0.3s ease-in-out;
+}
+.social img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+  filter: drop-shadow(#0238daf1 0px 0px 10px);
+}
 
 /* footer */
 
@@ -919,6 +920,10 @@ p {
     display: flex;
   }
 
+  .webdev {
+    color: #fa0b0b;
+    margin-left: 8px;
+  }
   .main-container {
     background-color: #f2f2f2;
 
@@ -1103,83 +1108,155 @@ p {
     width: 0;
   }
 }
-
-
-
-
 /* Responsive Styles */
-
-
 
 @media (max-width: 480px) {
   body {
-      font-size: 14px;
+    font-size: 14px;
   }
-  .repo{
-     width: 100%;
-     margin: 0;
+  .repodiv {
+    margin-left: 0;
   }
-  
-  .sec-service{
+  .repo {
+    width: 100%;
+    margin: 0;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .project-info p {
+    font-size: 80%;
+  }
+
+  .sec-service {
     width: 100%;
     height: auto;
   }
-  .service-div{
+  .service-div {
     width: 100%;
     height: auto;
     margin-left: 0;
     margin-right: 0;
   }
-  .project-div{
+  .project-div {
     width: 100%;
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .about-container{
+  .about-container {
     width: 100%;
     border-radius: 2.5rem;
     height: auto;
   }
 
-  .about-text a{
+  .about-text a {
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .sec-contact{
+  .sec-contact {
     height: auto;
-   
   }
-  .cantact-container{
+  .cantact-container {
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 3rem;
-    
   }
-  .phone{
-   width: 90%;
-    
-
-  }
-  .email{
+  .phone {
     width: 90%;
   }
-  .address{
+  .email {
     width: 90%;
-   
   }
-  .phone-text{
-   
+  .address {
+    width: 90%;
+  }
+  .phone-text {
     padding-top: 10px;
   }
-  .email-text{
+  .email-text {
     padding-top: 10px;
   }
-  .address-text{
+  .address-text {
     padding-top: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+  .fronttext {
+    font-size: 18px;
+    width: 110px;
+  }
+  .webdev {
+    margin-left: 0px;
+    width: 200px;
+    text-align: left;
+    font-size: 18px;
+  }
+  .repo {
+    width: 100%;
+    margin: 0;
+  }
+  .name {
+    font-size: 35px;
+  }
+  .sec-service {
+    width: 100%;
+    height: auto;
+  }
+  .service-div {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .project-div {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .about-container {
+    width: 100%;
+    border-radius: 2.5rem;
+    height: auto;
   }
 
+  .about-text a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
+  .sec-contact {
+    height: auto;
+  }
+  .cantact-container {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 3rem;
+  }
+  .phone {
+    width: 90%;
+  }
+  .email {
+    width: 90%;
+  }
+  .address {
+    width: 90%;
+  }
+  .phone-text {
+    padding-top: 10px;
+  }
+  .email-text {
+    padding-top: 10px;
+  }
+  .address-text {
+    padding-top: 10px;
+  }
 }
